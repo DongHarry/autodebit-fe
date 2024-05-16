@@ -1,0 +1,264 @@
+{
+	"common": {
+		"short_name": "Short name",
+		"address": "Address",
+		"country": "Country",
+		"province": "Provicne",
+		"district": "District",
+		"created_at": "Created at",
+		"updated_at": "Updated at",
+		"creator": "Creator",
+		"editor": "Editor",
+		"phone_number": "Phone number",
+		"row_selected": "{row} row selected",
+		"longitude": "Longitude",
+		"latitude": "Latitude",
+		"note": "Note",
+		"CodeSync": "Code sync"
+	},
+	"placeholder": {
+		"please_enter": "Please enter",
+		"please_select": "Please select",
+		"editor":"Editor",
+		"phone_number": "Phone number",
+		"note": "Note",
+		"please_input": "Please input"
+	},
+	"button": {
+		"add_new": "Add New",
+		"edit": "Edit",
+		"delete": "Delete",
+		"upload": "Upload",
+		"login": "Login",
+		"forgot_password": "Forgot password",
+		"cancel": "Cancel",
+		"save": "Save",
+		"search": "Search",
+		"reset": "Reset",
+		"detail": "Detail"
+	},
+	"validate": {
+		"account_required": "Please enter account",
+		"name_required": "Please enter a name",
+		"email_required": "Please enter an email",
+		"role_required": "Please select a role",
+		"company_required": "Please select a company",
+		"password_required": "Please enter password",
+		"code_required": "Please enter code",
+		"address_required": "Please enter address",
+		"country_required": "Please enter country",
+		"province_required": "Please enter province",
+		"carrier": {
+			"type_required": "Please select type"
+		},
+		"type_required": "Please select type",
+		"cost_group_required": "Please select cost group",
+		"vendor_code_required": "Please enter code vendor",
+		"vendor_name_required": "Please enter name vendor",
+		"short_name_required": "Please enter short name",
+		"email_format": "Email format is incorrect",
+		"width_required": "Please enter width",
+		"height_required": "Please enter height",
+		"length_required": "Please enter length",
+		"location_required": "Please select location",
+		"area_required": "Please select area",
+		"area": {
+			"code_required" : "Please enter area code",
+			"name_required" : "Please enter area name"
+		},
+		"route": {
+			"code_required" : "Please enter route code",
+			"name_required" : "Please enter route name"
+		}
+	},
+	"confirm": {
+		"delete": "Are you sure you want to delete?"
+	},
+	"message": {
+		"login_failed": "Wrong account or password, please try again",
+		"action_success": "Action successful",
+		"action_error": "An error occurred, please try again",
+		"delete_user_success": "Delete user successfully",
+		"delete_user_error": "An error occurred while deleting user",
+		"update_list_user_success": "Update list user successfully",
+		"block_user_success": "Block user successfully",
+		"block_user_error": "Block user error",
+		"unblock_user_success": "Unblock user successfully",
+		"unblock_user_error": "Unblock user error",
+		"delete_cost_group_success": "Delete cost group successfully",
+		"delete_cost_group_error": "An error occurred while deleting cost group",
+		"update_list_transport_type_success": "Update list transport type successfully",
+		"delete_transport_type_success": "Delete transport type successfully",
+		"delete_transport_type_error": "Delete transport type error",
+		"delete_cost_type_success": "Delete cost type successfully",
+		"delete_cost_type_error": "An error occurred while deleting cost type",
+		"update_list_service_type_success": "Update list service type successfully",
+		"delete_service_type_success": "Delete service type successfully",
+		"delete_service_type_error": "Delete service type error",
+		"update_list_container_type_success": "Update list container type successfully",
+		"delete_container_success": "Delete container successfully",
+		"delete_container_error": "Delete container error"
+	},
+	"sidebar": {
+		"overview": "Overview",
+		"dashboard": "Dashboard",
+		"manage": "Management",
+		"order": "Order",
+		"customer": "Customer",
+		"customer_contract": "Customer contract",
+		"vendor": "Vendor",
+		"vendor_contract": "Vendor contract",
+		"report": "Report",
+		"transport": "Transport",
+		"setting": "Setting",
+		"user": "User",
+		"role": "Role",
+		"company": "Company",
+		"route": "Route",
+		"category": "Category",
+		"system": "System",
+		"other": "Other",
+		"cost_group": "Cost Group",
+		"coordinate_list": "Coordinate list",
+		"carriers": "Shipping lines, airlines",
+		"transport_type": "Transport type",
+		"cost_type": "Cost Type",
+		"service_type": "Service type",
+		"container_type": "Container type",
+		"countries": "Country",
+		"provinces": "Province",
+		"districts": "District",
+		"package_unit": "Package unit",
+		"area_list": "Area list"
+	},
+	"user": {
+		"account": "Account",
+		"password": "Password",
+		"name": "Name",
+		"role": "Role",
+		"status": "Status",
+		"created_at": "Created at",
+		"creator": "Creator",
+		"email": "Email",
+		"company":"Company",
+		"phone_number": "Phone number",
+		"note": "Note",
+		"using": "Using",
+		"active": "Active",
+		"deactive": "Deactive",
+		"block": "Block",
+		"unblock": "Unblock",
+		"title": "Setting user"
+	},
+	"vendor": {
+		"code": "Vendor code",
+		"name": "Vendor name",
+		"general_info": "General",
+		"vendor_contract": "Vendor contract",
+		"tax_code": "Tax Code",
+		"payment_name": "Payment name",
+		"payment_address": "Payment address",
+		"title": "Setting vendor"
+	},
+	"cost_group": {
+		"cost_group": "Cost group",
+		"code": "Cost group code",
+		"name": "Cost group name",
+		"address_type": "Address type",
+		"title" : "Setting cost group"
+	},
+	"location": {
+		"code": "Code",
+		"tile": "Location",
+		"name": "Name",
+		"province": "Province",
+		"district": "District",
+		"address_type": "Address type",
+		"title": "Setting coordinate"
+	},
+	"carrier": {
+		"code": "Code",
+		"name": "Name",
+		"address": "Address",
+		"type": "Type",
+		"train": "Train",
+		"airplane": "Airplane",
+		"title": "Setting carrier"
+	},
+	"transport_type": {
+		"title": "Setting transport type",
+		"code": "Code transport type",
+		"name": "Name transport type",
+		"type": "Category",
+		"note": "Note"
+	},
+	"cost_type": {
+		"cost_type": "Cost type",
+		"code": "Cost type code",
+		"name": "Cost type name",
+		"cost_group_name": "Belongs to the cost group",
+		"title": "Setting cost type"
+	},
+	"service_type": {
+		"code": "Code service type",
+		"name": "Name service type",
+		"title": "Setting service type"
+	},
+	"company": {
+		"code": "Company code",
+		"name": "Company name",
+		"level": "Level",
+		"parent_company": "Parent company",
+		"branch": "Branch",
+		"title": "Setting company"
+	},
+	"container": {
+		"code": "Container code",
+		"name": "Container name",
+		"height": "Height",
+		"width": "Width",
+		"length": "Length",
+		"note": "Note",
+		"title": "Setting container"
+	},
+	"country": {
+		"Code": "Code",
+		"title": "Setting Country",
+		"CountryName": "Country"
+	},
+	"province": {
+		"Code": "Code",
+		"title": "Setting Province",
+		"ProvinceName": "Province"
+	},
+	"district": {
+		"Code": "Code",
+		"title": "Setting District",
+		"DistrictName": "District"
+	},
+	"package_unit": {
+		"code": "Package unit code",
+		"name": "Package unit name",
+		"title": "Setting package unit"
+	},
+	"area": {
+		"title": "Setting Area List",
+		"code": "Area code",
+		"name": "Area name"
+	},
+	"route": {
+		"title": "Setting Route",
+		"code": "Route code",
+		"name": "Route name",
+		"status": "Status",
+		"using": "Using",
+		"not_use": "Not Use",
+		"location_type": "Location",
+		"area_type": "Area Type",
+		"type": "Route Type",
+		"from_location": "From Location",
+		"to_location": "To Location",
+		"from_area": "From Area",
+		"to_area": "To Area",
+	}
+}

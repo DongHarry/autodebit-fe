@@ -1,0 +1,261 @@
+{
+	"common": {
+		"short_name": "Tên ngắn",
+		"address": "Địa chỉ",
+		"country": "Quốc gia",
+		"province": "Tỉnh/ TP",
+		"district": "Quận huyện",
+		"created_at": "Ngày tạo",
+		"updated_at": "Ngày sửa",
+		"creator": "Người tạo",
+		"editor": "Người sửa",
+		"phone_number": "Số điện thoại",
+		"row_selected": "{row} dòng được chọn",
+		"longitude": "Kinh độ",
+		"latitude": "Vĩ độ",
+		"note": "Ghi chú",
+		"CodeSync": "Mã đồng bộ"
+	},
+	"placeholder": {
+		"please_enter": "Vui lòng nhập",
+		"please_select": "Vui lòng chọn",
+		"editor": "Người chỉnh sửa",
+		"phone_number": "Số điện thoại",
+		"note": "Ghi chú",
+		"please_input": "Vui lòng nhập"
+	},
+	"button": {
+		"add_new": "Thêm mới",
+		"edit": "Chỉnh sửa",
+		"cancel": "Hủy",
+		"save": "Lưu",
+		"delete": "Xóa",
+		"upload": "Tải lên",
+		"login": "Đăng nhập",
+		"forgot_password": "Quên mật khẩu",
+		"search": "Tìm kiếm",
+		"reset": "Làm mới",
+		"detail": "Chi tiết"
+	},
+	"validate": {
+		"account_required": "Vui lòng nhập tài khoản",
+		"name_required": "Vui lòng nhập tên",
+		"email_required": "Vui lòng nhập email",
+		"role_required": "Vui lòng chọn vai trò",
+		"company_required": "Vui lòng chọn đơn vị",
+		"password_required": "Vui lòng nhập mật khẩu",
+		"code_required": "Vui lòng nhập mã",
+		"address_required": "Vui lòng nhập địa chỉ",
+		"country_required": "Vui lòng chọn quốc gia",
+		"province_required": "Vui lòng chọn tỉnh thành",
+		"carrier": {
+			"type_required": "Vui lòng chọn hãng"
+		},
+		"type_required": "Vui lòng chọn phân loại",
+		"cost_group_required": "Vui chọn nhóm chi phí",
+		"vendor_code_required": "Vui lòng nhập mã vendor",
+		"vendor_name_required": "Vui lòng nhập tên vendor",
+		"short_name_required": "Vui lòng nhập tên ngắn",
+		"email_format": "Email không đúng định dạng",
+		"width_required": "Vui lòng nhập chiều rộng",
+		"height_required": "Vui lòng nhập chiều cao",
+		"length_required": "Vui lòng nhập chiều dài",
+		"location_required": "Vui lòng chọn địa điểm",
+		"area_required": "Vui lòng chọn khu vực",
+		"area": {
+			"code_required" : "Vui lòng nhập mã khu vực",
+			"name_required" : "Vui lòng nhập tên khu vực"
+		}
+	},
+	"confirm": {
+		"delete": "Bạn có chắc chắn muốn xóa?"
+	},
+	"message": {
+		"login_failed": "Sai tài khoản hoặc mật khẩu, vui lòng thử lại",
+		"action_success": "Thao tác thành công",
+		"action_error": "Có lỗi xảy ra, vui lòng thử lại",
+		"delete_user_success": "Xóa người dùng thành công",
+		"delete_user_error": "Xoá người dùng không thành công",
+		"update_list_user_success": "Cập nhật danh sách người dùng thành công",
+		"block_user_success": "Đã khóa tài khoản người dùng thành công",
+		"block_user_error": "Khóa người dùng không thành công",
+		"unblock_user_success": "Đã mở khóa tài khoản người dùng thành công",
+		"unblock_user_error": "Mở khóa người dùng không thành công",
+		"delete_cost_group_success": "Xóa nhóm chi phí thành công",
+		"delete_cost_group_error": "Xoá nhóm chi phí không thành công",
+		"update_list_transport_type_success": "Cập nhật danh sách loại hình vận chuyển thành công",
+		"delete_transport_type_success": "Xóa loại hình vận chuyển thành công",
+		"delete_transport_type_error": "Xóa loại hình vận chuyển không thành công",
+		"delete_cost_type_success": "Xóa loại chi phí thành công",
+		"delete_cost_type_error": "Xoá loại chi phí không thành công",
+		"update_list_service_type_success": "Cập nhật danh sách loại dịch vụ thành công",
+		"delete_service_type_success": "Xóa loại dịch vụ thành công",
+		"delete_service_type_error": "Xóa loại dịch vụ không thành công",
+		"update_list_container_type_success": "Cập nhật danh sách loại container thành công",
+		"delete_container_success": "Xóa container thành công",
+		"delete_container_error": "Xóa container không thành công"
+	},
+	"sidebar": {
+		"overview": "Tổng quan",
+		"dashboard": "Dashboard",
+		"manage": "Quản lý",
+		"order": "Đơn hàng",
+		"customer": "Khách hàng",
+		"customer_contract": "Hợp đồng khách hàng",
+		"vendor": "Vendor",
+		"vendor_contract": "Hợp đồng vendor",
+		"report": "Báo cáo",
+		"transport": "Vận chuyển",
+		"setting": "Thiết lập",
+		"user": "Người dùng",
+		"role": "Vai trò",
+		"company": "Đơn vị",
+		"route": "Cung đường",
+		"category": "Danh mục",
+		"system": "Hệ thống",
+		"other": "Khác",
+		"cost_group": "Nhóm chi phí",
+		"location_list": "Danh sách điểm",
+		"carriers": "Hãng tàu, hãng bay",
+		"transport_type": "Loại hình vận chuyển",
+		"cost_type": "Loại chi phí",
+		"service_type": "Loại dịch vụ",
+		"container_type": "Loại container",
+		"countries": "Quốc gia",
+		"provinces": "Tỉnh thành",
+		"districts": "Quận huyện",
+		"package_unit": "Đơn vị kiện",
+		"area_list": "Danh sách khu vực"
+	},
+	"user": {
+		"account": "Tài khoản",
+		"password": "Mật khẩu",
+		"name": "Họ & tên",
+		"role": "Vai trò",
+		"status": "Trạng thái",
+		"created_at": "Ngày tạo",
+		"creator": "Người tạo",
+		"email": "Email",
+		"company":"Đơn vị",
+		"phone_number": "Số điện thoại",
+		"note": "Ghi chú",
+		"using": "Đang sử dụng",
+		"active": "Đang hoạt động",
+		"deactive": "Không hoạt động",
+		"block": "Khóa",
+		"unblock": "Mở khóa",
+		"title": "Thiết lập người dùng"
+	},
+	"vendor": {
+		"code": "Mã vendor",
+		"general_info": "Thông tin chung",
+		"vendor_contract": "Hợp đồng vendor",
+		"tax_code": "Mã số thuế",
+		"payment_name": "Tên thanh toán",
+		"payment_address": "Địa chỉ thanh toán",
+		"name": "Tên vendor",
+		"title": "Quản lý vendor"
+	},
+	"cost_group": {
+		"cost_group": "Nhóm chi phí",
+		"code": "Mã nhóm chi phí",
+		"name": "Tên nhóm chi phí",
+		"payment_address": "Địa chỉ thanh toán",
+		"title" : "Thiết lập nhóm chi phí"
+	},
+	"location": {
+		"code": "Mã",
+		"tile": "Địa điểm",
+		"name": "Tên",
+		"province": "Tỉnh thành",
+		"district": "Quận huyện",
+		"address_type": "Loại địa chỉ",
+		"title": "Thiết lập điểm"
+	},
+	"carrier": {
+		"code": "Mã",
+		"name": "Tên",
+		"address": "Địa chỉ",
+		"type": "Loại hãng",
+		"train": "Hãng tàu",
+		"airplane": "Hãng bay",
+		"title": "Thiết lập hãng tàu, hãng bay"
+	},
+	"transport_type": {
+		"title": "Thiết lập loại hình vận chuyển",
+		"code": "Mã loại hình vận chuyển",
+		"name": "Tên loại hình vận chuyển",
+		"type": "Phân loại",
+		"note": "Ghi chú"
+	},
+	"cost_type": {
+		"cost_type": "Loại chi phí",
+		"code": "Mã loại chi phí",
+		"name": "Tên loại chi phí",
+		"cost_group_name": "Thuộc nhóm chi phí",
+		"note": "Ghi chú",
+		"title": "Thiết lập loại chi phí"
+	},
+	"service_type": {
+		"code": "Mã loại dịch vụ",
+		"name": "Tên loại dịch vụ",
+		"title": "Thiết lập loại dịch vụ"
+	},
+	"company": {
+		"code": "Mã đơn vị",
+		"name": "Tên đơn vị",
+		"level": "Cấp bậc",
+		"parent_company": "Tổng công ty",
+		"branch": "Chi nhánh",
+		"title": "Thiết lập đơn vị"
+	},
+	"container": {
+		"code": "Mã container",
+		"name": "Tên container",
+		"height": "Chiều cao",
+		"width": "Chiều rộng",
+		"length": "Chiều dài",
+		"note": "Ghi chú",
+		"title": "Thiết lập container"
+	},
+	"country": {
+		"Code": "Mã quốc gia",
+		"title": "Thiết lập quốc gia",
+		"CountryName": "Quốc gia"
+	},
+	"province": {
+		"Code": "Mã tỉnh thành",
+		"title": "Thiết lập tỉnh thành",
+		"ProvinceName": "Tỉnh thành"
+	},
+	"district": {
+		"Code": "Mã quận huyện",
+		"title": "Thiết lập quận huyện",
+		"DistrictName": "Quận huyện"
+	},
+	"package_unit": {
+		"code": "Mã đơn vị kiện",
+		"name": "Tên đơn vị kiện",
+		"title": "Thiết lập đơn vị kiện"
+	},
+	"area": {
+		"title": "Thiết lập danh sách khu vực",
+		"code": "Mã khu vực",
+		"name": "Tên khu vực"
+	},
+	"route": {
+		"title": "Thiết lập cung đường",
+		"code": "Mã cung đường",
+		"name": "Tên cung đường",
+		"status": "Trạng thái",
+		"using": "Đang sử dụng",
+		"not_use": "Không sử dụng",
+		"location_type": "Địa điểm",
+		"area_type": "Khu vực",
+		"type": "Loại cung đường",
+		"from_location": "Từ điểm",
+		"to_location": "Đến điểm",
+		"from_area": "Từ khu vực",
+		"to_area": "Đến khu vực"
+	}
+}

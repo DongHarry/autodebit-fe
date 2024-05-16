@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container-layout {
+  &__header {
+    padding: 14px 32px;
+    background-color: #fff;
+    min-height: 72px;
+  }
+
+  &__content {
+    padding: 24px;
+    background: #fff;
+    min-height: 360px;
+    margin: 16px;
+  }
+}
